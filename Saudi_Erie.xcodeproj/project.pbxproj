@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5BC267179E389300ABB546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC266179E389300ABB546 /* Foundation.framework */; };
+		1E5BC269179E389300ABB546 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC268179E389300ABB546 /* CoreGraphics.framework */; };
+		1E5BC26B179E389300ABB546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC26A179E389300ABB546 /* UIKit.framework */; };
+		1E5BC271179E389300ABB546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC26F179E389300ABB546 /* InfoPlist.strings */; };
+		1E5BC273179E389300ABB546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC272179E389300ABB546 /* main.m */; };
+		1E5BC277179E389300ABB546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC276179E389300ABB546 /* AppDelegate.m */; };
+		1E5BC27A179E389300ABB546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC278179E389300ABB546 /* Main.storyboard */; };
+		1E5BC27D179E389300ABB546 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC27C179E389300ABB546 /* FirstViewController.m */; };
+		1E5BC280179E389300ABB546 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC27F179E389300ABB546 /* SecondViewController.m */; };
+		1E5BC282179E389300ABB546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC281179E389300ABB546 /* Images.xcassets */; };
+		1E5BC289179E389300ABB546 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC288179E389300ABB546 /* XCTest.framework */; };
+		1E5BC28A179E389300ABB546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC266179E389300ABB546 /* Foundation.framework */; };
+		1E5BC28B179E389300ABB546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC26A179E389300ABB546 /* UIKit.framework */; };
+		1E5BC293179E389300ABB546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC291179E389300ABB546 /* InfoPlist.strings */; };
+		1E5BC295179E389300ABB546 /* Saudi_ErieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E5BC28C179E389300ABB546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5BC25B179E389300ABB546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5BC262179E389300ABB546;
+			remoteInfo = Saudi_Erie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5BC263179E389300ABB546 /* Saudi_Erie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saudi_Erie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5BC266179E389300ABB546 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E5BC268179E389300ABB546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E5BC26A179E389300ABB546 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E5BC26E179E389300ABB546 /* Saudi_Erie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saudi_Erie-Info.plist"; sourceTree = "<group>"; };
+		1E5BC270179E389300ABB546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E5BC272179E389300ABB546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E5BC274179E389300ABB546 /* Saudi_Erie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Saudi_Erie-Prefix.pch"; sourceTree = "<group>"; };
+		1E5BC275179E389300ABB546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E5BC276179E389300ABB546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E5BC279179E389300ABB546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E5BC27B179E389300ABB546 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1E5BC27C179E389300ABB546 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1E5BC27E179E389300ABB546 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1E5BC27F179E389300ABB546 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1E5BC281179E389300ABB546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E5BC287179E389300ABB546 /* Saudi_ErieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Saudi_ErieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5BC288179E389300ABB546 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1E5BC290179E389300ABB546 /* Saudi_ErieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saudi_ErieTests-Info.plist"; sourceTree = "<group>"; };
+		1E5BC292179E389300ABB546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saudi_ErieTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5BC260179E389300ABB546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BC269179E389300ABB546 /* CoreGraphics.framework in Frameworks */,
+				1E5BC26B179E389300ABB546 /* UIKit.framework in Frameworks */,
+				1E5BC267179E389300ABB546 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5BC284179E389300ABB546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BC289179E389300ABB546 /* XCTest.framework in Frameworks */,
+				1E5BC28B179E389300ABB546 /* UIKit.framework in Frameworks */,
+				1E5BC28A179E389300ABB546 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5BC25A179E389300ABB546 = {
+			isa = PBXGroup;
+			children = (
+				1E5BC26C179E389300ABB546 /* Saudi_Erie */,
+				1E5BC28E179E389300ABB546 /* Saudi_ErieTests */,
+				1E5BC265179E389300ABB546 /* Frameworks */,
+				1E5BC264179E389300ABB546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E5BC264179E389300ABB546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BC263179E389300ABB546 /* Saudi_Erie.app */,
+				1E5BC287179E389300ABB546 /* Saudi_ErieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5BC265179E389300ABB546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BC266179E389300ABB546 /* Foundation.framework */,
+				1E5BC268179E389300ABB546 /* CoreGraphics.framework */,
+				1E5BC26A179E389300ABB546 /* UIKit.framework */,
+				1E5BC288179E389300ABB546 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E5BC26C179E389300ABB546 /* Saudi_Erie */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BC275179E389300ABB546 /* AppDelegate.h */,
+				1E5BC276179E389300ABB546 /* AppDelegate.m */,
+				1E5BC278179E389300ABB546 /* Main.storyboard */,
+				1E5BC27B179E389300ABB546 /* FirstViewController.h */,
+				1E5BC27C179E389300ABB546 /* FirstViewController.m */,
+				1E5BC27E179E389300ABB546 /* SecondViewController.h */,
+				1E5BC27F179E389300ABB546 /* SecondViewController.m */,
+				1E5BC281179E389300ABB546 /* Images.xcassets */,
+				1E5BC26D179E389300ABB546 /* Supporting Files */,
+			);
+			path = Saudi_Erie;
+			sourceTree = "<group>";
+		};
+		1E5BC26D179E389300ABB546 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BC26E179E389300ABB546 /* Saudi_Erie-Info.plist */,
+				1E5BC26F179E389300ABB546 /* InfoPlist.strings */,
+				1E5BC272179E389300ABB546 /* main.m */,
+				1E5BC274179E389300ABB546 /* Saudi_Erie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E5BC28E179E389300ABB546 /* Saudi_ErieTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */,
+				1E5BC28F179E389300ABB546 /* Supporting Files */,
+			);
+			path = Saudi_ErieTests;
+			sourceTree = "<group>";
+		};
+		1E5BC28F179E389300ABB546 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BC290179E389300ABB546 /* Saudi_ErieTests-Info.plist */,
+				1E5BC291179E389300ABB546 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5BC262179E389300ABB546 /* Saudi_Erie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5BC298179E389300ABB546 /* Build configuration list for PBXNativeTarget "Saudi_Erie" */;
+			buildPhases = (
+				1E5BC25F179E389300ABB546 /* Sources */,
+				1E5BC260179E389300ABB546 /* Frameworks */,
+				1E5BC261179E389300ABB546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saudi_Erie;
+			productName = Saudi_Erie;
+			productReference = 1E5BC263179E389300ABB546 /* Saudi_Erie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E5BC286179E389300ABB546 /* Saudi_ErieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5BC29B179E389300ABB546 /* Build configuration list for PBXNativeTarget "Saudi_ErieTests" */;
+			buildPhases = (
+				1E5BC283179E389300ABB546 /* Sources */,
+				1E5BC284179E389300ABB546 /* Frameworks */,
+				1E5BC285179E389300ABB546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5BC28D179E389300ABB546 /* PBXTargetDependency */,
+			);
+			name = Saudi_ErieTests;
+			productName = Saudi_ErieTests;
+			productReference = 1E5BC287179E389300ABB546 /* Saudi_ErieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5BC25B179E389300ABB546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Bader;
+				TargetAttributes = {
+					1E5BC286179E389300ABB546 = {
+						TestTargetID = 1E5BC262179E389300ABB546;
+					};
+				};
+			};
+			buildConfigurationList = 1E5BC25E179E389300ABB546 /* Build configuration list for PBXProject "Saudi_Erie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E5BC25A179E389300ABB546;
+			productRefGroup = 1E5BC264179E389300ABB546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5BC262179E389300ABB546 /* Saudi_Erie */,
+				1E5BC286179E389300ABB546 /* Saudi_ErieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5BC261179E389300ABB546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BC282179E389300ABB546 /* Images.xcassets in Resources */,
+				1E5BC271179E389300ABB546 /* InfoPlist.strings in Resources */,
+				1E5BC27A179E389300ABB546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5BC285179E389300ABB546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BC293179E389300ABB546 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5BC25F179E389300ABB546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BC280179E389300ABB546 /* SecondViewController.m in Sources */,
+				1E5BC277179E389300ABB546 /* AppDelegate.m in Sources */,
+				1E5BC27D179E389300ABB546 /* FirstViewController.m in Sources */,
+				1E5BC273179E389300ABB546 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5BC283179E389300ABB546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BC295179E389300ABB546 /* Saudi_ErieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E5BC28D179E389300ABB546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5BC262179E389300ABB546 /* Saudi_Erie */;
+			targetProxy = 1E5BC28C179E389300ABB546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E5BC26F179E389300ABB546 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5BC270179E389300ABB546 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E5BC278179E389300ABB546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5BC279179E389300ABB546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E5BC291179E389300ABB546 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5BC292179E389300ABB546 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E5BC296179E389300ABB546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E5BC297179E389300ABB546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E5BC299179E389300ABB546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saudi_Erie/Saudi_Erie-Prefix.pch";
+				INFOPLIST_FILE = "Saudi_Erie/Saudi_Erie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E5BC29A179E389300ABB546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saudi_Erie/Saudi_Erie-Prefix.pch";
+				INFOPLIST_FILE = "Saudi_Erie/Saudi_Erie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1E5BC29C179E389300ABB546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saudi_Erie.app/Saudi_Erie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saudi_Erie/Saudi_Erie-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Saudi_ErieTests/Saudi_ErieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1E5BC29D179E389300ABB546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saudi_Erie.app/Saudi_Erie";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saudi_Erie/Saudi_Erie-Prefix.pch";
+				INFOPLIST_FILE = "Saudi_ErieTests/Saudi_ErieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5BC25E179E389300ABB546 /* Build configuration list for PBXProject "Saudi_Erie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5BC296179E389300ABB546 /* Debug */,
+				1E5BC297179E389300ABB546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5BC298179E389300ABB546 /* Build configuration list for PBXNativeTarget "Saudi_Erie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5BC299179E389300ABB546 /* Debug */,
+				1E5BC29A179E389300ABB546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E5BC29B179E389300ABB546 /* Build configuration list for PBXNativeTarget "Saudi_ErieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5BC29C179E389300ABB546 /* Debug */,
+				1E5BC29D179E389300ABB546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E5BC25B179E389300ABB546 /* Project object */;
+}
