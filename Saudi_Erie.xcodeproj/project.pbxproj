@@ -14,7 +14,6 @@
 		1E5BC273179E389300ABB546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC272179E389300ABB546 /* main.m */; };
 		1E5BC277179E389300ABB546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC276179E389300ABB546 /* AppDelegate.m */; };
 		1E5BC27A179E389300ABB546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC278179E389300ABB546 /* Main.storyboard */; };
-		1E5BC27D179E389300ABB546 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC27C179E389300ABB546 /* FirstViewController.m */; };
 		1E5BC280179E389300ABB546 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC27F179E389300ABB546 /* SecondViewController.m */; };
 		1E5BC282179E389300ABB546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC281179E389300ABB546 /* Images.xcassets */; };
 		1E5BC289179E389300ABB546 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC288179E389300ABB546 /* XCTest.framework */; };
@@ -22,6 +21,7 @@
 		1E5BC28B179E389300ABB546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC26A179E389300ABB546 /* UIKit.framework */; };
 		1E5BC293179E389300ABB546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC291179E389300ABB546 /* InfoPlist.strings */; };
 		1E5BC295179E389300ABB546 /* Saudi_ErieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */; };
+		1E5BC2A3179E396200ABB546 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC2A1179E396200ABB546 /* ContactsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 		1E5BC275179E389300ABB546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E5BC276179E389300ABB546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1E5BC279179E389300ABB546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E5BC27B179E389300ABB546 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		1E5BC27C179E389300ABB546 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		1E5BC27E179E389300ABB546 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		1E5BC27F179E389300ABB546 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1E5BC281179E389300ABB546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		1E5BC290179E389300ABB546 /* Saudi_ErieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saudi_ErieTests-Info.plist"; sourceTree = "<group>"; };
 		1E5BC292179E389300ABB546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saudi_ErieTests.m; sourceTree = "<group>"; };
+		1E5BC2A0179E396200ABB546 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		1E5BC2A1179E396200ABB546 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +115,11 @@
 		1E5BC26C179E389300ABB546 /* Saudi_Erie */ = {
 			isa = PBXGroup;
 			children = (
+				1E5BC2A0179E396200ABB546 /* ContactsViewController.h */,
+				1E5BC2A1179E396200ABB546 /* ContactsViewController.m */,
 				1E5BC275179E389300ABB546 /* AppDelegate.h */,
 				1E5BC276179E389300ABB546 /* AppDelegate.m */,
 				1E5BC278179E389300ABB546 /* Main.storyboard */,
-				1E5BC27B179E389300ABB546 /* FirstViewController.h */,
-				1E5BC27C179E389300ABB546 /* FirstViewController.m */,
 				1E5BC27E179E389300ABB546 /* SecondViewController.h */,
 				1E5BC27F179E389300ABB546 /* SecondViewController.m */,
 				1E5BC281179E389300ABB546 /* Images.xcassets */,
@@ -256,7 +256,7 @@
 			files = (
 				1E5BC280179E389300ABB546 /* SecondViewController.m in Sources */,
 				1E5BC277179E389300ABB546 /* AppDelegate.m in Sources */,
-				1E5BC27D179E389300ABB546 /* FirstViewController.m in Sources */,
+				1E5BC2A3179E396200ABB546 /* ContactsViewController.m in Sources */,
 				1E5BC273179E389300ABB546 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

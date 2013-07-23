@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ContactsViewController.h
 //  Saudi_Erie
 //
 //  Created by Bader on 7/23/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ContactsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
+    
+}
 
 @end
