@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ContactsManager.h"
+
+@class ContactsManager;
 
 @interface ContactsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
-    
+    ContactsManager *_contactsManager;
+    IBOutlet UITableView *_contactsTable;
 }
 
+@property (strong) ContactsManager *_contactsManager;
+@property (strong) UITableView *_contactsTable;
 @end
