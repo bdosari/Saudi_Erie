@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E40306F17A5B9FB0015B5E5 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E40306E17A5B9FB0015B5E5 /* FacebookViewController.m */; };
 		1E5BC267179E389300ABB546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC266179E389300ABB546 /* Foundation.framework */; };
 		1E5BC269179E389300ABB546 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC268179E389300ABB546 /* CoreGraphics.framework */; };
 		1E5BC26B179E389300ABB546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC26A179E389300ABB546 /* UIKit.framework */; };
@@ -14,7 +15,6 @@
 		1E5BC273179E389300ABB546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC272179E389300ABB546 /* main.m */; };
 		1E5BC277179E389300ABB546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC276179E389300ABB546 /* AppDelegate.m */; };
 		1E5BC27A179E389300ABB546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC278179E389300ABB546 /* Main.storyboard */; };
-		1E5BC280179E389300ABB546 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC27F179E389300ABB546 /* SecondViewController.m */; };
 		1E5BC282179E389300ABB546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC281179E389300ABB546 /* Images.xcassets */; };
 		1E5BC289179E389300ABB546 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC288179E389300ABB546 /* XCTest.framework */; };
 		1E5BC28A179E389300ABB546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BC266179E389300ABB546 /* Foundation.framework */; };
@@ -22,6 +22,8 @@
 		1E5BC293179E389300ABB546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC291179E389300ABB546 /* InfoPlist.strings */; };
 		1E5BC295179E389300ABB546 /* Saudi_ErieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */; };
 		1E5BC2A3179E396200ABB546 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC2A1179E396200ABB546 /* ContactsViewController.m */; };
+		1E60568E17A5A75E0098C730 /* CategoriesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E60568D17A5A75E0098C730 /* CategoriesList.plist */; };
+		1E60569117A5AF740098C730 /* CategoriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E60569017A5AF740098C730 /* CategoriesManager.m */; };
 		1E71838A17A42663001DA20F /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC12E5917A3B41F0029846D /* BG1.png */; };
 		1E71838D17A42886001DA20F /* cell1 in Resources */ = {isa = PBXBuildFile; fileRef = 1E71838B17A42886001DA20F /* cell1 */; };
 		1E71838E17A42886001DA20F /* cell1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E71838C17A42886001DA20F /* cell1@2x.png */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E40306D17A5B9FB0015B5E5 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookViewController.h; path = ../FacebookViewController.h; sourceTree = "<group>"; };
+		1E40306E17A5B9FB0015B5E5 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookViewController.m; path = ../FacebookViewController.m; sourceTree = "<group>"; };
 		1E5BC263179E389300ABB546 /* Saudi_Erie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saudi_Erie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5BC266179E389300ABB546 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1E5BC268179E389300ABB546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,8 +62,6 @@
 		1E5BC275179E389300ABB546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E5BC276179E389300ABB546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1E5BC279179E389300ABB546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E5BC27E179E389300ABB546 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1E5BC27F179E389300ABB546 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1E5BC281179E389300ABB546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1E5BC287179E389300ABB546 /* Saudi_ErieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Saudi_ErieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5BC288179E389300ABB546 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -68,6 +70,9 @@
 		1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saudi_ErieTests.m; sourceTree = "<group>"; };
 		1E5BC2A0179E396200ABB546 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
 		1E5BC2A1179E396200ABB546 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		1E60568D17A5A75E0098C730 /* CategoriesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CategoriesList.plist; sourceTree = "<group>"; };
+		1E60568F17A5AF740098C730 /* CategoriesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesManager.h; sourceTree = "<group>"; };
+		1E60569017A5AF740098C730 /* CategoriesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesManager.m; sourceTree = "<group>"; };
 		1E71838B17A42886001DA20F /* cell1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cell1; sourceTree = "<group>"; };
 		1E71838C17A42886001DA20F /* cell1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell1@2x.png"; sourceTree = "<group>"; };
 		1E71839017A475D2001DA20F /* KSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSLabel.h; path = Helper/KSLabel.h; sourceTree = "<group>"; };
@@ -145,12 +150,12 @@
 			isa = PBXGroup;
 			children = (
 				1E71838F17A475B3001DA20F /* Helper */,
+				1E40306D17A5B9FB0015B5E5 /* FacebookViewController.h */,
+				1E40306E17A5B9FB0015B5E5 /* FacebookViewController.m */,
 				1EBE876217A056E700DDC7AD /* ContactsManager.h */,
 				1EBE876317A056E700DDC7AD /* ContactsManager.m */,
 				1E5BC2A0179E396200ABB546 /* ContactsViewController.h */,
 				1E5BC2A1179E396200ABB546 /* ContactsViewController.m */,
-				1E5BC27E179E389300ABB546 /* SecondViewController.h */,
-				1E5BC27F179E389300ABB546 /* SecondViewController.m */,
 				1EC12E5517A39A540029846D /* ContactDetailViewController.h */,
 				1EC12E5617A39A540029846D /* ContactDetailViewController.m */,
 				1E5BC278179E389300ABB546 /* Main.storyboard */,
@@ -160,6 +165,8 @@
 				1E5BC26D179E389300ABB546 /* Supporting Files */,
 				1E71839B17A47DF0001DA20F /* PlacesViewController.h */,
 				1E71839C17A47DF0001DA20F /* PlacesViewController.m */,
+				1E60568F17A5AF740098C730 /* CategoriesManager.h */,
+				1E60569017A5AF740098C730 /* CategoriesManager.m */,
 			);
 			path = Saudi_Erie;
 			sourceTree = "<group>";
@@ -207,6 +214,7 @@
 			children = (
 				1EC12E5817A3B3F60029846D /* Images */,
 				1E9C4566179F8DDF0077574F /* ContactList.plist */,
+				1E60568D17A5A75E0098C730 /* CategoriesList.plist */,
 			);
 			name = Resources;
 			path = Saudi_Erie;
@@ -306,6 +314,7 @@
 				1E71838A17A42663001DA20F /* BG1.png in Resources */,
 				1E71838E17A42886001DA20F /* cell1@2x.png in Resources */,
 				1E71839617A479F1001DA20F /* phoneIcon@2x.png in Resources */,
+				1E60568E17A5A75E0098C730 /* CategoriesList.plist in Resources */,
 				1E71839A17A47B43001DA20F /* MailIcon@2x.png in Resources */,
 				1E71839517A479F1001DA20F /* phoneIcon.png in Resources */,
 				1E71839917A47B43001DA20F /* MailIcon.png in Resources */,
@@ -334,10 +343,11 @@
 				1E71839D17A47DF0001DA20F /* PlacesViewController.m in Sources */,
 				1E71839217A475D2001DA20F /* KSLabel.m in Sources */,
 				1EC12E5717A39A540029846D /* ContactDetailViewController.m in Sources */,
+				1E60569117A5AF740098C730 /* CategoriesManager.m in Sources */,
 				1EBE876517A05C8600DDC7AD /* ContactsManager.m in Sources */,
-				1E5BC280179E389300ABB546 /* SecondViewController.m in Sources */,
 				1E5BC277179E389300ABB546 /* AppDelegate.m in Sources */,
 				1E5BC2A3179E396200ABB546 /* ContactsViewController.m in Sources */,
+				1E40306F17A5B9FB0015B5E5 /* FacebookViewController.m in Sources */,
 				1E5BC273179E389300ABB546 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

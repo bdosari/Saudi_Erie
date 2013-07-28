@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CategoriesManager.h"
 
 @interface PlacesViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
-    NSMutableArray *_listOfCategories;
+    IBOutlet UITableView *_categoriesTable;
+    CategoriesManager *_categoriesManager;
 }
 
-@property (strong) NSMutableArray *_listOfCategories;
+@property (strong) UITableView *_categoriesTable;
+@property (strong) CategoriesManager *_categoriesManager;
 
 @end

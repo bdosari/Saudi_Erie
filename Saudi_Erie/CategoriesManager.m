@@ -1,39 +1,36 @@
 //
-//  ContactsManager.m
+//  CategoriesManager.m
 //  Saudi_Erie
 //
-//  Created by Bader on 7/24/13.
+//  Created by Bader on 7/28/13.
 //  Copyright (c) 2013 Bader. All rights reserved.
 //
 
-#import "ContactsManager.h"
+#import "CategoriesManager.h"
 
-
-
-@implementation ContactsManager
-
+@implementation CategoriesManager
 @synthesize _entries;
 
 - (id)init{
     if ( self = [super init] ) {
-        [self readContactList:@"ContactList.plist"];
+        [self readCategoriesList];
     }
     
     return self;
 }
 
--(void)readContactList: (NSString*) fileName{
+-(void)readCategoriesList{
     NSLog(@"reading contact list");
     NSError *error;
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); //1
     NSString *documentsDirectory = [paths objectAtIndex:0]; //2
-    NSString *path = [documentsDirectory stringByAppendingPathComponent:fileName]; //3
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:@"CategoriesList.plist"]; //3
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
     if (![fileManager fileExistsAtPath: path]) //4
     {
-        NSString *bundle = [[NSBundle mainBundle] pathForResource:@"ContactList" ofType:@"plist"]; //5
+        NSString *bundle = [[NSBundle mainBundle] pathForResource:@"CategoriesList" ofType:@"plist"]; //5
         
         [fileManager copyItemAtPath:bundle toPath: path error:&error]; //6
     }
@@ -60,26 +57,20 @@
     
     //NSArray *entries = (NSArray *)d;
     _entries = (NSArray *)temp;
-
+    
     
 }
 
--(NSString*)readContactNameAtIndex:(NSInteger)index
+-(NSString*)readCategoryNameAtIndex:(NSInteger)index
 {
     NSDictionary *contactEntry = (NSDictionary*)[_entries objectAtIndex:index];
     return (NSString *)[contactEntry objectForKey:@"Name"];
 }
 
--(NSString*)readContactPhoneAtIndex:(NSInteger)index
-{
-    NSDictionary *contactEntry = [_entries objectAtIndex:index];
-    return (NSString *)[contactEntry objectForKey:@"Phone"];
-}
 
--(NSInteger)getNumberOfContacts
+-(NSInteger)getNumberOfCategories
 {
     return [_entries count];
 }
-
 
 @end
