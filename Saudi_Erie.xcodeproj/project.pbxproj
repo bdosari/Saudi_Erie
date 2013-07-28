@@ -22,8 +22,18 @@
 		1E5BC293179E389300ABB546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E5BC291179E389300ABB546 /* InfoPlist.strings */; };
 		1E5BC295179E389300ABB546 /* Saudi_ErieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */; };
 		1E5BC2A3179E396200ABB546 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BC2A1179E396200ABB546 /* ContactsViewController.m */; };
+		1E71838A17A42663001DA20F /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC12E5917A3B41F0029846D /* BG1.png */; };
+		1E71838D17A42886001DA20F /* cell1 in Resources */ = {isa = PBXBuildFile; fileRef = 1E71838B17A42886001DA20F /* cell1 */; };
+		1E71838E17A42886001DA20F /* cell1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E71838C17A42886001DA20F /* cell1@2x.png */; };
+		1E71839217A475D2001DA20F /* KSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E71839117A475D2001DA20F /* KSLabel.m */; };
+		1E71839517A479F1001DA20F /* phoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E71839317A479F1001DA20F /* phoneIcon.png */; };
+		1E71839617A479F1001DA20F /* phoneIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E71839417A479F1001DA20F /* phoneIcon@2x.png */; };
+		1E71839917A47B43001DA20F /* MailIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E71839717A47B43001DA20F /* MailIcon.png */; };
+		1E71839A17A47B43001DA20F /* MailIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E71839817A47B43001DA20F /* MailIcon@2x.png */; };
+		1E71839D17A47DF0001DA20F /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E71839C17A47DF0001DA20F /* PlacesViewController.m */; };
 		1E9C4567179F8DDF0077574F /* ContactList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E9C4566179F8DDF0077574F /* ContactList.plist */; };
 		1EBE876517A05C8600DDC7AD /* ContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE876317A056E700DDC7AD /* ContactsManager.m */; };
+		1EC12E5717A39A540029846D /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC12E5617A39A540029846D /* ContactDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +68,22 @@
 		1E5BC294179E389300ABB546 /* Saudi_ErieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saudi_ErieTests.m; sourceTree = "<group>"; };
 		1E5BC2A0179E396200ABB546 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
 		1E5BC2A1179E396200ABB546 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		1E71838B17A42886001DA20F /* cell1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cell1; sourceTree = "<group>"; };
+		1E71838C17A42886001DA20F /* cell1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell1@2x.png"; sourceTree = "<group>"; };
+		1E71839017A475D2001DA20F /* KSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSLabel.h; path = Helper/KSLabel.h; sourceTree = "<group>"; };
+		1E71839117A475D2001DA20F /* KSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSLabel.m; path = Helper/KSLabel.m; sourceTree = "<group>"; };
+		1E71839317A479F1001DA20F /* phoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phoneIcon.png; sourceTree = "<group>"; };
+		1E71839417A479F1001DA20F /* phoneIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phoneIcon@2x.png"; sourceTree = "<group>"; };
+		1E71839717A47B43001DA20F /* MailIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MailIcon.png; sourceTree = "<group>"; };
+		1E71839817A47B43001DA20F /* MailIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MailIcon@2x.png"; sourceTree = "<group>"; };
+		1E71839B17A47DF0001DA20F /* PlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesViewController.h; sourceTree = "<group>"; };
+		1E71839C17A47DF0001DA20F /* PlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
 		1E9C4566179F8DDF0077574F /* ContactList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactList.plist; sourceTree = "<group>"; };
 		1EBE876217A056E700DDC7AD /* ContactsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsManager.h; sourceTree = "<group>"; };
 		1EBE876317A056E700DDC7AD /* ContactsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsManager.m; sourceTree = "<group>"; };
+		1EC12E5517A39A540029846D /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		1EC12E5617A39A540029846D /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		1EC12E5917A3B41F0029846D /* BG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG1.png; path = ../../../images/IOS7/BG1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,17 +144,22 @@
 		1E5BC26C179E389300ABB546 /* Saudi_Erie */ = {
 			isa = PBXGroup;
 			children = (
+				1E71838F17A475B3001DA20F /* Helper */,
 				1EBE876217A056E700DDC7AD /* ContactsManager.h */,
 				1EBE876317A056E700DDC7AD /* ContactsManager.m */,
 				1E5BC2A0179E396200ABB546 /* ContactsViewController.h */,
 				1E5BC2A1179E396200ABB546 /* ContactsViewController.m */,
-				1E5BC275179E389300ABB546 /* AppDelegate.h */,
-				1E5BC276179E389300ABB546 /* AppDelegate.m */,
-				1E5BC278179E389300ABB546 /* Main.storyboard */,
 				1E5BC27E179E389300ABB546 /* SecondViewController.h */,
 				1E5BC27F179E389300ABB546 /* SecondViewController.m */,
+				1EC12E5517A39A540029846D /* ContactDetailViewController.h */,
+				1EC12E5617A39A540029846D /* ContactDetailViewController.m */,
+				1E5BC278179E389300ABB546 /* Main.storyboard */,
+				1E5BC275179E389300ABB546 /* AppDelegate.h */,
+				1E5BC276179E389300ABB546 /* AppDelegate.m */,
 				1E5BC281179E389300ABB546 /* Images.xcassets */,
 				1E5BC26D179E389300ABB546 /* Supporting Files */,
+				1E71839B17A47DF0001DA20F /* PlacesViewController.h */,
+				1E71839C17A47DF0001DA20F /* PlacesViewController.m */,
 			);
 			path = Saudi_Erie;
 			sourceTree = "<group>";
@@ -165,13 +193,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1E71838F17A475B3001DA20F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1E71839017A475D2001DA20F /* KSLabel.h */,
+				1E71839117A475D2001DA20F /* KSLabel.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		1E9C4565179F8DB20077574F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1EC12E5817A3B3F60029846D /* Images */,
 				1E9C4566179F8DDF0077574F /* ContactList.plist */,
 			);
 			name = Resources;
 			path = Saudi_Erie;
+			sourceTree = "<group>";
+		};
+		1EC12E5817A3B3F60029846D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1E71839717A47B43001DA20F /* MailIcon.png */,
+				1E71839817A47B43001DA20F /* MailIcon@2x.png */,
+				1E71839317A479F1001DA20F /* phoneIcon.png */,
+				1E71839417A479F1001DA20F /* phoneIcon@2x.png */,
+				1E71838B17A42886001DA20F /* cell1 */,
+				1E71838C17A42886001DA20F /* cell1@2x.png */,
+				1EC12E5917A3B41F0029846D /* BG1.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +302,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E71838D17A42886001DA20F /* cell1 in Resources */,
+				1E71838A17A42663001DA20F /* BG1.png in Resources */,
+				1E71838E17A42886001DA20F /* cell1@2x.png in Resources */,
+				1E71839617A479F1001DA20F /* phoneIcon@2x.png in Resources */,
+				1E71839A17A47B43001DA20F /* MailIcon@2x.png in Resources */,
+				1E71839517A479F1001DA20F /* phoneIcon.png in Resources */,
+				1E71839917A47B43001DA20F /* MailIcon.png in Resources */,
 				1E5BC282179E389300ABB546 /* Images.xcassets in Resources */,
 				1E5BC271179E389300ABB546 /* InfoPlist.strings in Resources */,
 				1E9C4567179F8DDF0077574F /* ContactList.plist in Resources */,
@@ -272,6 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E71839D17A47DF0001DA20F /* PlacesViewController.m in Sources */,
+				1E71839217A475D2001DA20F /* KSLabel.m in Sources */,
+				1EC12E5717A39A540029846D /* ContactDetailViewController.m in Sources */,
 				1EBE876517A05C8600DDC7AD /* ContactsManager.m in Sources */,
 				1E5BC280179E389300ABB546 /* SecondViewController.m in Sources */,
 				1E5BC277179E389300ABB546 /* AppDelegate.m in Sources */,
